@@ -1,0 +1,8 @@
+<div class="academic-links" aria-label="Academic profiles">
+  {{ range sort .Site.Params.social "weight" }}
+    <a href="{{ .url }}" title="{{ .name }}" aria-label="{{ .name }}" rel="me noopener noreferrer" target="_blank">
+      <i class="{{ .class }}" aria-hidden="true"></i>
+      <span class="sr-only">{{ .name }}</span>
+    </a>
+  {{ end }}
+</div>
