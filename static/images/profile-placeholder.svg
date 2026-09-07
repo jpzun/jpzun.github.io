@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-labelledby="title description">
+  <title id="title">Profile photograph placeholder</title>
+  <desc id="description">Replace this image with your own profile photograph.</desc>
+  <rect width="800" height="1000" fill="#e7eddf"/>
+  <rect x="18" y="18" width="764" height="964" fill="none" stroke="#aebcad" stroke-width="4"/>
+  <text x="400" y="485" text-anchor="middle" fill="#56705f" font-family="system-ui, sans-serif" font-size="40">PROFILE PHOTO</text>
+  <text x="400" y="545" text-anchor="middle" fill="#6f7e74" font-family="system-ui, sans-serif" font-size="25">replace this file</text>
+</svg>

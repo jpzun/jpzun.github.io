@@ -1,0 +1,11 @@
+<span class="paper-icons">
+  {{ with .Get "journal" }}
+    <a href="{{ . }}" title="Journal" aria-label="Journal version" rel="noopener noreferrer" target="_blank"><i class="fa-solid fa-book-open" aria-hidden="true"></i><span class="sr-only">Journal</span></a>
+  {{ end }}
+  {{ with .Get "doi" }}
+    <a href="{{ . }}" title="DOI" aria-label="DOI" rel="noopener noreferrer" target="_blank"><i class="ai ai-doi" aria-hidden="true"></i><span class="sr-only">DOI</span></a>
+  {{ end }}
+  {{ with .Get "arxiv" }}
+    <a href="{{ . }}" title="arXiv" aria-label="arXiv version" rel="noopener noreferrer" target="_blank"><i class="ai ai-arxiv" aria-hidden="true"></i><span class="sr-only">arXiv</span></a>
+  {{ end }}
+</span>
